@@ -1,17 +1,30 @@
-body {background-color: #717A77;}
-.login {
+body {background-color: #717A77;
+background-image: url("bg.jpg");
+		background-size: 1000px 1000px;}
+.signup {
 		top: 50%;
 		left: 50%;
 		position: absolute;
 		transform: translate(-50%,-50%);
 }
-.login h3 {
+.signup h3 {
 		text-align: center;
 		font-size: 40px;
 		font-family: sans-serif;
+		color: #D4F58C;
+}
+.signup h4 {
+		font-size: 20px;
+		text-align: center;
+		font-family: sans-serif;
+		color: #B9770E;
+		}
+.signup h5 {
+		font-size: 20px;
+		font-family: sans-serif;
 		color: white;
 }
-.login input {
+.signup input {
 		display: inline-block;
 		width: 300px;
 		height: 30px;
@@ -20,15 +33,10 @@ body {background-color: #717A77;}
 		font-family: sans-serif;
 		background-color: black;
 		border: 1px solid white;
-		color: yellow;
+		color: white;
 
 }
-.radio-inline {
-		top: 51%;
-		left: 21%;
-		position: absolute;
-		transform: translate(400%,400%);
-}
+
 
 
 

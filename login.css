@@ -1,4 +1,8 @@
-body {background-color: #717A77;}
+body {background-color: #717A77;
+		background-image: url("bg.jpg");
+		background-size: 1000px 1000px;
+		color: yellow;
+		}
 .login {
 		top: 50%;
 		left: 50%;
@@ -9,8 +13,19 @@ body {background-color: #717A77;}
 		text-align: center;
 		font-size: 40px;
 		font-family: sans-serif;
+		color: #D4F58C;
+}
+.login h5 {
+		font-size: 25px;
+		font-family: sans-serif;
 		color: white;
 }
+.login h4 {
+		font-size: 20px;
+		text-align: center;
+		font-family: sans-serif;
+		color: #B9770E;
+		}
 .login input {
 		display: inline-block;
 		width: 300px;
@@ -20,6 +35,15 @@ body {background-color: #717A77;}
 		font-family: sans-serif;
 		background-color: black;
 		border: 1px solid white;
-		color: yellow;
-
+		color: white;
 }
+
+.signup a:link {color: white;
+	text-decoration: underline;}
+.signup a:visited {color: black;}
+.signup a:hover {
+		 color: white;
+		 text-decoration: underline;}
+.signup a:active {color: black;}
+
+
